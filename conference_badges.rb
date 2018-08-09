@@ -1,4 +1,7 @@
 $array_names = []
+def badge_maker(name)
+  return "Hello, my name is #{name}."
+end
 def batch_badge_creator(array = [])
   new_arr = []
   array.each {|ele| $array_names << ele}
