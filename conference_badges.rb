@@ -20,7 +20,7 @@ def assign_rooms(array = $array_names)
 end
 
 def printer(attendees)
-  assign_rooms.each do |ele|
+  assign_rooms(attendees).each do |ele|
     puts ele
   end
   
