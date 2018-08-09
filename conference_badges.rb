@@ -20,10 +20,11 @@ def assign_rooms(array = $array_names)
 end
 
 def printer(attendees)
-  batch_badge_creator(attendees).each do |ele|
-    puts ele
-  end
   assign_rooms.each do |ele|
     puts ele
   end
+  batch_badge_creator(attendees).each do |ele|
+    puts ele
+  end
+  
 end
