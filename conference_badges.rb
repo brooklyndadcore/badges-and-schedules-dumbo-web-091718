@@ -3,7 +3,7 @@ def batch_badge_creator(array = [])
   new_arr = []
   array.each {|ele| $array_names << ele}
   array.each {|ele| new_arr << "Hello, my name is #{ele}."}
-  return new_arr[0]
+  return new_arr
 end
 
 def assign_rooms
